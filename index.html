@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+    </style>
+    <link rel="stylesheet" type="text/css" href="board.css">
+    <script type="text/javascript" src = 'http://code.jquery.com/jquery-1.11.3.min.js'></script>
+    <script type="text/javascript" src = "board_model.js"></script>
+    <script type="text/javascript" src = "board.js"></script>
+    <script type="text/javascript" src = "board_controller.js"></script>
+</head>
+<body>
+
+    <header>
+    <h1>Game Of Life</h1>
+    </header>
+
+    <nav>
+        <ul calss = "starting_configurations">
+            <li class="starting_configuration empty">
+                Empty
+            </li>
+            <li class="starting_configuration glider">
+                Glider
+            </li>
+            <li class="starting_configuration still">
+                Still Life
+            </li>
+            <li class="starting_configuration target">
+                Stupid 
+            </li>
+            <li class="starting_configuration blinker">
+                Blinker
+            </li>
+            <li class="starting_configuration pulsar">
+                Pulsar
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <p>
+            <div class = "board_widget_container">
+                <ul id = "board_container">
+                    
+                </ul>
+                <div class = "button_container">
+
+                    <button class = "run_btn">Run</button>
+
+                    <button class = "stop_btn hidden">Stop</button>
+                    <button class = "step_btn">Step</button>
+                    <button class = "clear_btn">Clear</button>
+                </div>
+
+                <div style = "clear: both;"></div>
+            </div>
+        </p>
+      
+    </section>
+
+    <footer>
+       
+    </footer>
+
+</body>
+</html>
