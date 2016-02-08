@@ -9,7 +9,7 @@ An internal representation of the board. It abstracts a Game of Life board by 1 
 * ``boardinstance.turnOn(row, col)`` changes the value of a cell to 1.
 * ``boardinstance.turnOff(row, col)`` changes the value of a cell to 0.
 * ``boardinstance.countLiveNeighbors(row, col)`` the number of live neighbors around a cell at `row, col`.
-*``boardinstance.step()`` evaluates the next state of the board and changes the internal representation accordingly. Returns `true` if the board is empty. 
+* ``boardinstance.step()`` evaluates the next state of the board and changes the internal representation accordingly. Returns `true` if the board is empty. 
 
 
 
